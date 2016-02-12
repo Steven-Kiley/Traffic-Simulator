@@ -1,0 +1,151 @@
+Steven Kiley Final Project Time Sheet
+
+
+10/21/14 From 5:11 PM until 8:39 PM - 
+Premilinary planning for base classes, time spent going through code for Demo, Agent, Timeserver, World.
+Figuring out what the scope of the project is and developing thoughts on how to achieve results.
+Design:               ~2.5 hours
+Coding/Debugging:     ~0.75 hours
+Big Bugs:             ~0 hours
+
+10/22/14 From 5:50 PM until 8:06 PM - 
+Felt way around code examples some more, dveloped road + car interfaces and implementing classes. Started
+adapting TimeServer and World interfaces/classes to project needs.
+Design:               ~1 hour
+Coding/Debugging:     ~1.25 hours
+Big Bugs:             ~0 hours
+
+10/23/14 From 4:33 PM until 9:23 PM - 
+Wrote code implementing more of TimeServer, World, Road, and Car. Spent time getting them to fit together. Changed 
+design for RoadInterface to be Implemented by a new class for each movement direction, and that class to create its 
+subsequent, directionally moving cars. This allows future expansion for two lane road even though that is outside of
+the project scope.
+Design:               ~1 hour
+Coding/Debugging:     ~4 hours
+Big Bugs:             ~0 hours
+
+10/24/14 From 6:11 PM until 9:43 PM - 
+COntinued rebuild of Road/Car objects. Unforseen changes needed to be made to WorldObj in order to produce desired results.
+Ran into bug at end of night, couldn't nail it down.
+Design:               ~0 hours
+Coding Debugging:     ~2.25 hours
+Big Bugs:             ~1.25 hours
+      -NullPointerException while running a temporary/test main function.
+
+10/25/14 From 9:14 AM until 12:17 PM - 
+Debugging NullPointerException. Succeded. Successful test run of all created objects interacting. Car drives down road.
+Started looking into the Swing code/ how to graphically represent data.
+Design:               ~0.75 hours
+Coding/Debugging:     ~0.75 hours
+Big Bugs:             ~1.5 hours
+      -NullPointerException turned out to be from a silly mistake. Wrote a class variable, then created an instance variable of the 
+       same name. Literally one word in the code resulting in uninitialized class variable in created instance of class.
+
+
+10/27/14 From 4:34 PM until 5:31 PM - 
+Completing tests, cleaning up code. Reformatted this time sheet to be more readable.
+Design:               ~0.5 hours
+Coding/Debugging      ~0.5 hours
+Big Bugs:             ~0 hours
+
+END WEEK 1
+
+10/30/14 From 4:41 PM until 8:26 PM -
+Rewrote several objects related to roads and cars after looking over Swing and animation code.Rethought how obstacles are registered by cars.
+Design:               ~1.5 hours
+Coding/Debugging      ~2.25 hours
+Big Bugs:             ~0 hours
+
+10/31/14 From 6:02 PM until 8:01 PM -
+Investigating observor/observalbe & swing
+Design:               ~2 hours
+Coding/Debugging:     ~0 hours
+Big Bugs:             ~0 hours
+
+11/1/14 From 9:11 AM until 5:50 PM -
+Trying to wrap head around Observer/Observable pattern. Built observor/observable into code. Started figuring out java.swing
+Design:               ~5 hours
+Coding/Debugging:     ~3.5 hours
+Big Bugs:             ~0 hours 
+
+11/2/14 From 8:23 AM until 11:17 AM - 
+Wasting my life trying to figure out Swing
+Design:               ~1 hour
+Coding/Debugging:     ~2 hours
+Big Bugs:	      ~0 hours
+
+11/3/14 From 10:14 AM until 3:44 PM -
+Designed and wrote my own Animating code.
+Design:               ~3.5 hours
+Coding/Debugging:     ~2 hours
+Big Bugs:             ~0 hours
+
+END WEEK 2
+
+11/3/14 From 5:15 PM until 7:57 PM -
+Debugging major problem: graphical output incorrect
+Design:		      ~0 hours
+Coding/Debugging:     ~0 hours
+Big Bugs:             ~2.75 hours
+
+11/4/14 From 7:01 AM until 12:05 PM -
+Threw out code, completely restarting the project. Doing online tutorials on java.Swing.
+Design:               ~3 hours
+Coding/Debugging:     ~2 hours
+Big Bugs:             ~0 hours
+
+11/5/14 From 5:25 PM until 10:21 PM -
+Still rebuilding project. Creating new car/raod/carsink classes and interfaces. Working through code provided in example
+to see if I can better adapt it to the project. Building test files for roads and cars.Ran into bug with _bigNum value resulting
+in program crash.
+Design:    	      ~1 hour	
+Coding/Debugging:     ~3 hour
+Big Bugs:	      ~1 hour
+
+11/6/14 From 6:43 PM until 11:17 PM - 
+Setting up intersections, lights, car sources. Everything tests nicely without graphics. Ready to start on graphics.
+Big Bug where car source was generating cars faster than the default rate.
+Design:		      ~0 hours
+Coding/Debugging:     ~2.5 hours
+Big Bugs:	      ~1 hours
+
+
+11/7/14 From 9:17 AM until 7:21 PM -
+Setting up graphics using provided code. Debugging several big graphical glithces, cars not appearing, roads not painting, intersection not
+acting as obstacles when light is red.
+Design:		      ~1 hour
+Coding/Debugging:     ~4 hours
+Big Bugs:	      ~5 hours
+
+11/8/14 From 10:36 AM until 7:15 PM -
+Finally fixed car issue. Continued building animation code, started adapting assignment 2 code for commands/UI.
+Design:		      ~1 hour
+Coding/Debugging:     ~5 hours
+Big Bugs:	      ~2.5 hours
+
+11/10/14 From 8:07 AM until 3:14 PM -
+Fixed a few small animation glitches, reworked the ProjectSetup parameters to create faster paced animation. continued adapting UI/commands
+from assignment 2 to simulation.
+Design:		      ~2 hours
+Coding/Debugging:     ~4 hours
+Big Bugs:	      ~1 hour
+
+END WEEK 3
+11/11/14 From 4:47 PM until 9:11 PM -
+Finishing UI, creating main, control files.
+Design:               ~0 hours
+Coding/Debugging:     ~4.5 hours
+Big Bugs:             ~0 hours
+
+11/12/14 From 5:23 PM until 10:58 PM -
+Finished main, control files, ran into bug where main crashes when run.
+Finishing UI, creating main, control files.
+Design:               ~0 hours
+Coding/Debugging:     ~2 hours
+Big Bugs:             ~3.25 hours
+
+11/13/14 From 4:51 PM until 8:23 PM -
+Worked out bug causing main to crash. Tested changing parameters. 
+Design:               ~0 hours
+Coding/Debugging:     ~1 hours
+Big Bugs:             ~1.5 hours
